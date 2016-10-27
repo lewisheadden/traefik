@@ -810,6 +810,13 @@ domain = "marathon.localhost"
 # Optional
 #
 # dcosToken = "xxxxxx"
+
+# Set the TCP Keep Alive interval (in seconds) for the Marathon HTTP Client
+#
+# Optional
+# Default: 10
+#
+# keepAlive = 10
 ```
 
 Labels can be used on containers to override default behaviour:
